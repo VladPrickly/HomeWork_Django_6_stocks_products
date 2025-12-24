@@ -1,7 +1,12 @@
 from rest_framework import serializers
 
+from stocks_products.logistic.models import Product
+
 
 class ProductSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Product
+        fields = __all__
     # настройте сериализатор для продукта
     pass
 
