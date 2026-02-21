@@ -1,3 +1,4 @@
-.idea
-.venv
+.idea/
+.venv/
+.env
 _Эталон_решения-_CRUD_в_DRF.docx
